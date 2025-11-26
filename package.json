@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "node migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govind-dev1012000/nodejs-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/govind-dev1012000/nodejs-crud/issues"
+  },
+  "homepage": "https://github.com/govind-dev1012000/nodejs-crud#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
